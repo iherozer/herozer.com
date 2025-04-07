@@ -9,8 +9,8 @@
     "build": "vite build",
     "watch": "vite build -w",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --cname herozer.com"
   },
   "author": "CoderTJP & herozer",
   "devDependencies": {
